@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h1, h2 {margin-bottom: 15px;}
+img {max-width: 100%;}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0px;
+    line-height: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.texto-grande {
+    font-size: 20px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.nombre {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 45px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+.contorno {
+    border: 1px solid #299d63;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contorno:hover {
+    background: #299d63;
+    color: white;
+}
+
+.p-1 {padding: 80px 0px; }
+
+
+.fondo-color {
+    background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 50%, #ffffff 50%, #ffffff 100%);
+}
+
+
+.barra {
+    height: 80px;
+    background: #299d63;
+}
+
+.barra a:hover {
+    color: #1d613f;
+}
+
+.barra .logo img {
+    height: 50px;
+    margin-top: 15px;
+}
+
+.barra a {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.barra .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.barra ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.mi-perfil img {
+    margin-top: 30px;
+    height: 350px;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+}
+
+
+.pie {
+    background: #299d63;
+    color: white;
+    height: 60px;
+}
+
+.pie p {
+    float: right;
+    padding: 10px;
+}
+
+
+.cajas-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-1 {
+    flex: 1;
+}
+ .listas-habilidades {
+   list-style: none;
+   padding: 5px;
+ }
+.listas-habilidades i {
+    font-size: 30px;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+#listas-ocultar {
+    display: none;
+}
+
+#boton {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #299d63;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+
+@media all and (max-width: 500px) {
+    .cajas-flex {
+        flex-direction: column;
+    }
+}

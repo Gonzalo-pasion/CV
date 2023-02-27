@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="index-style.css">
+</head>
+<body>
+
+    <header class="principal">
+
+        <nav class="barra">
+
+            <div class="contenedor">
+                <div class="logo">
+                    <img src="imagen/curriculum-vitae.png" alt="">
+                </div>
+
+                <ul>
+                    <li> <a href="#info">Información</a></li>
+                    <li> <a href="#hab">Habilidades</a></li>
+                    <li> <a href="#exp">Experiencias</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mi-perfil centrar-texto fondo-color">
+
+            <div class="contenedor " >
+
+                <img src="imagen/foto-mia.jpg" alt="">
+                <h1 class="nombre">Gonzalo Ferreyra</h1>
+                <p class="texto-grande">Hola! un placer compartir mi cv junto a ustedes, si tienes mas ganas de saber de mi, haz click abajo!!</p>
+
+                <a href="#info" class="boton contorno">Accede a la información!</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="info" class="p-1">
+
+        <div class="contenedor">
+            <h2>Información</h2>
+            <div class="cajas-flex">
+                <div class="caja-1">
+                    <p>Mi nombre es Gonzalo D Ferreyra y tengo 21 años. Vivo en la Provincia de Santiago del Estero, capital. Me encuentro estudiando el primer año en la carrera de Programador Universitario en Informática en la Facultad de Ciencias Exactas y Tecnológias, UNSE. </p>
+                        Estoy desarrollando mi cv en este nuevo proyecto como primer pasos en el Front-End.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="hab" class="p-1">
+
+        <div class="contenedor">
+            <h2>Habilidades</h2>
+            <div class="cajas-flex">
+                <div class="caja-1">
+                    <p class="color-txt">A continuación les presento algunas de mis habilidades: </p>
+                    <button id="boton" onclick="mostrar();" ondblclick="ocultar();">Click para ver!</button>
+                    <div id="listas-ocultar">
+                        <ul class="listas-habilidades">
+                            <li>Manejo de Computadoras.</li>
+                            <li>Redes.</li>
+                            <li>Dibujos y pinturas.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caja-1">
+                    <img src="imagen/habilidades-imagen.png" alt="imagen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="exp" class="p-1">
+
+        <div class="contenedor">
+
+            <h2>Experiencias</h2>
+                    <ul class="listas-habilidades">
+                        <li> <i class="fa-solid fa-computer"> </i>Mantenimiento de PC</li>
+                        <li> <i class="fa-solid fa-ethernet"></i>Armado y testeo de cables de redes UTP.</li>
+                    </ul>
+                     
+        </div>
+    </section>
+    
+    <footer class="pie">
+    <p>&copy; Mi primer CV</p>
+    </footer>
+
+    <script src="js/cv-index.js"></script>
+    <script src="https://kit.fontawesome.com/7dc44ab558.js" crossorigin="anonymous"></script>
+</body>
+</html>
